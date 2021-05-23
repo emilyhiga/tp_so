@@ -146,14 +146,14 @@ bool string_equals_ignore_case(char *actual, char *expected) {
 char **string_split(char *text, char *separator) {
 	bool _is_last_token(char* next, int _) {
 		return next != NULL;
-	}
+	};
 	return _string_split(text, separator, _is_last_token);
 }
 
 char** string_n_split(char *text, int n, char* separator) {
 	bool _is_last_token(char* next, int index) {
 		return next != NULL && index < (n - 1);
-	}
+	};
 	return _string_split(text, separator, _is_last_token);
 }
 
