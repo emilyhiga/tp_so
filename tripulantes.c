@@ -13,6 +13,8 @@ typedef struct{
     int x;
     int y;
 }Posicion;
+// De las posiciones tener la matriz
+
 
 Tripulante  nuevo_tripulante(){
     Tripulante t1;
