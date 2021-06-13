@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+typedef struct{
+    int id_patota;
+    Tripulante tripulantes[];
+} Patota;
 typedef struct {
     int id_tripulante;
     int id_patota;
